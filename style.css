@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Kaushan+Script&family=Mali&family=Righteous&family=Sriracha&display=swap');
+
+
+
+*{
+    margin: 0;
+}
+
+header {
+    height: 105px;
+    background-color: #D8CCA3;
+}
+
+header h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 55px;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 5px;
+    color: #87805E;
+}
+
+nav{
+    height: 40px;
+    background-color: #63571e;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+}
+nav li {
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: #6ecfff;
+    padding: 10px;
+    margin-right: 25px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.4s ease;
+    font-family: 'Archivo Narrow', sans-serif ,cursive;
+    border-radius: 40px;
+}
+
+nav a:hover {
+    color: red;
+    padding: 10px;
+    background-color: #a18e2e;
+
+}
+
+/* ini bagian isi */
+
+.isi{
+    background-color: #CDC2AE;
+    height: 1800px;
+    padding-top: 30px;
+}
+
+/* ini bagian penjelasan */
+
+.content-penjelasan{
+    background-color: #a18835d7;
+    height: 395px;
+    width: 1300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+
+.penjelasan {
+    margin-top: -80px;
+}
+
+.penjelasan h1{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-family: cursive;
+    text-decoration: underline rgb(146, 98, 98);
+    color: rgb(73, 72, 175);
+    font-size: 40px;
+}
+.penjelasan img{
+    height: 200px;
+    margin-left: 30px;
+    margin-right: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: #cfb358d7;
+    float: left;
+}
+
+.penjelasan p{
+    margin-top: 12px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+    color: rgb(10, 66, 66);
+}
+
+/*  masuk ke bagian cara bermain */
+.content-cara {
+    background-color: #a18835d7;
+    height: 515px;
+    width: 900px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 50px;
+    border: 3px solid black;
+    
+}
+
+.content-cara h1{
+    font-family: cursive;
+    text-decoration: underline rgb(146, 98, 98);
+    color: rgb(72, 116, 153);
+    font-size: 40px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.content-cara p{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+    color:#103b5e;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.carabermain img{
+    height: 280px;
+    width: 280px;
+    margin-right: 10px;
+    float: left;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: #cfb358d7;
+}
+.carabermain {
+    margin-left: 10px;
+
+}
+
+
+
+/* ini bagian lambang */
+
+.content-lambang {
+    background-color: #a18835d7;
+    height: 545px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: -581px;
+    margin-right: 20px;
+    border-radius: 50px;
+    border: 3px solid black;
+    float: right;
+}
+
+.lambang h1{
+    margin-left: 80px;
+    font-family: cursive;
+    text-decoration: underline rgb(146, 98, 98);
+    color: rgb(42, 41, 117);
+    font-size: 40px;
+}
+
+.lambang img {
+    float: left;
+    height: 138px;
+}
+
+.lambang p{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+    color:#0b3b2f;
+}
+
+/* ini bagian game */
+.game {
+    background-color: #a18835d7;
+    height: 465px;
+    width: 1000px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+
+.game h1{
+    text-align: center;
+    margin-top: -100px;
+    padding-top: 20px;
+    font-size: 55px;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 5px;
+    color: #0153b1;
+}
+
+section {
+    border-top: 5px solid black;
+    height: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+  
+  }
+  
+  .score {
+    color: transparent;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .score h2 {
+    font-size: 30px;
+  
+  }
+  
+  .score p {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+  }
+  
+  .intro {
+    color: rgb(224, 224, 224);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .intro h1 {
+    font-size: 50px;
+    text-decoration: none;
+  }
+  
+  .intro button,
+  .match button {
+    width: 150px;
+    height: 50px;
+    background-color: none;
+    border: unset;
+    color: rgb(224, 224, 224);
+    font-size: 20px;
+    background: rgb(85, 66, 15);
+    border-radius: 45px;
+    cursor: pointer;
+
+  }
+  
+  .match {
+    margin-top: -30px;
+    top: 50%;
+    left: 20%;
+    transform: translate();
+  }
+.match h2{
+    margin-bottom: 15px;
+}
+  
+  .winner {
+    color: rgba(0, 0, 0, 0.973);
+    text-align: center;
+    font-size: 50px;
+    margin-top: -420px;
+    font-family: 'Righteous', cursive;
+
+  }
+  
+  .hands,
+  .options {
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+.options button:hover{
+    background-color: black;
+}
+.intro button:hover {
+    background-color: black;
+}
+.player-hands {
+    transform: rotateY(180deg);
+}
+  
+  .fadeOut {
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s ease
+  }
+  
+  .fadeIn {
+    opacity: 1;
+    pointer-events: all;
+    transition: .5s ease;
+  }
+  
+  @keyframes shakePlayer {
+    0% {
+      transform: rotateY(180deg) translateY(0px);
+    }
+  
+    15% {
+      transform: rotateY(180deg) translateY(-50px);
+    }
+  
+    25% {
+      transform: rotateY(180deg) translateY(0px);
+    }
+  
+    35% {
+      transform: rotateY(180deg) translateY(-50px);
+    }
+  
+    50% {
+      transform: rotateY(180deg) translateY(0px);
+    }
+  
+    65% {
+      transform: rotateY(180deg) translateY(-50px);
+    }
+  
+    75% {
+      transform: rotateY(180deg) translateY(0px);
+    }
+  
+    85% {
+      transform: rotateY(180deg) translateY(-50px);
+    }
+  
+    105% {
+      transform: rotateY(180deg) translateY(0px);
+    }
+  
+  }
+  
+  @keyframes shakeComputer {
+    0% {
+      transform: translateY(0px);
+    }
+  
+    15% {
+      transform: translateY(-50px);
+    }
+  
+    25% {
+      transform: translateY(0px);
+    }
+  
+    35% {
+      transform: translateY(-50px);
+    }
+  
+    50% {
+      transform: translateY(0px);
+    }
+  
+    65% {
+      transform: translateY(-50px);
+    }
+  
+    75% {
+      transform: translateY(0px);
+    }
+  
+    85% {
+      transform: translateY(-50px);
+    }
+  
+    105% {
+      transform: translateY(0px);
+    }
+  }

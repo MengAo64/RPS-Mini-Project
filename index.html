@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> GAME | Gunting Kertas Batu</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <header>
+        <h1> Game : Gunting Kertas Batu</h1>
+    </header>
+
+    <nav >
+        <ul>
+            <li><a href="#penjelasan">Penjelasan</a></li>
+            <li><a href="#cara">Cara Bermain</a></li>
+            <li><a href="#game">Game</a></li>
+        </ul>
+    </nav>
+    
+    <div class="isi" id="penjelasan">
+        <div class="content-penjelasan" >
+            <div class="penjelasan" >
+                <h1>Penjelasan</h1>
+                <img src="IMG/gbk.png" alt="">
+                    <p>Sejarah Permainan gunting batu kertas ini tidak ada yang tau pasti juga, namun dinegara aslanya Jepang disebut dengan JANKEN.</p>
+                    <p>Di Indoensia ini disebut dengan suwit, siapa yang tidak tau permainan ini dan belum pernah memainkannya?</p>
+                    <p>Dari anak kecil sampai orang dewasa saya rasa pernah memainkannya, permainan yang sangat populer deberbagai kalangan.</p>
+                    <p>Sejarah permain gunting batu kertas ini berawal dari ke isengan anak kecil di jepang yang sedang bermain, dia menemukan game ini dan memainkannya.</p>
+                    <p>Karena 2 orang anak kecil ini suka memainkannya dan dilihat oleh teman lainnya maka permainan ini semakin banyak dimainkan.</p>
+                    <p>Permainan sederhana yang tidak memerlukan alat ini diperkirakan mulai ditemukan pada tahun 206 Sebelum Masehi.</p>
+                    <p>Sejarah permainan gunting batu kertas awalnya memiliki lebih dari 3 gestur tangan yang mengambarkannya.</p>
+                    <p id="cara">Oleh 2 orang yang memiliki nama Edo dan Meiji permainan ini dikembangkan lagi menjadi 3 gesture tangan yakni gunting batu kertas.</p>
+            </div>
+        </div>
+
+        <!-- Masuk ke bagian Cara bermain -->
+            <div class="content-cara">
+                <div class="carabermain">
+                    <h1>Cara Bermain</h1>
+                    <img src="IMG/cara.png" alt="cara" >
+                    <p>Gesture kertas mampu mengalahkan batu, batu bisa mengalahkan gunting, gunting mampu mengalahkan kertas.</p>
+                    <p>Kedua pemain harus berdiri atau duduk berhadapan, masing - masing dapat menyusun strategi gesture tangan apa yang akan dikeluarkan.</p>
+                    <p>Kedua pemain harus mengeluarkan gesture tangan secara bersamaan, jika ada pemain yang terlambat mengeluarkan gesture tangan maka akan diulang kembali.</p>
+                    <p>Apabila kedua orang ini mengeluarkan gesture tangan yang sama juga akan mengulang permainan sampai didapat pemenang dan yang kalah dalam suwit.</p>
+                    <p>Biasanya suwit ini digunakan untuk menentukan suatu awal permainan, serupa juga dengan pelemparan koin dan dadu pada umumnya</p>
+                    <p>Hanya saja untuk suwit ini tidak menggunakan media apapun, hanya gestur tangan saja yang dipakai.Janken atau suwit jepang kini sudah dikenal oleh masyarakat Indonesia dan banyak juga dimainkan.</p>
+
+                    
+                </div>
+            </div>
+
+            <div class="content-lambang">
+                <div class="lambang">
+                    <h1>Lambang</h1>
+                    <img src="IMG/gunting.png" alt="gunting">
+                    <p class="gbkp">Gunting dilambangkan dengan 2 jari yaitu telunjuk dan jari tengah</p>
+                    <br><br><br><br>
+                    <img src="IMG/Kertas.png" alt="kertas" >
+                    <p class="gbkp">Kertas dilambangkan dengan lima jari yang dibuka lebar</p>
+                    <br><br><br><br>
+                    <img src="IMG/batu.png" alt="batu" >
+                    <p class="gbkp" id="game">Batu dilambangkan dengan kepalan tangan</p>
+                
+                </div>
+            </div>
+
+            <!-- ini bagian game -->
+            <div class="game">
+                <div class="content-game">
+                    <h1>Game</h1>
+                    <section class="game1">
+
+                        <!-- score board player versus computer -->
+                        <div class="score">
+                          <div class="player-score">
+                            <h2>Player</h2>
+                            <p>0</p>
+                          </div>
+                          <div class="computer-score">
+                            <h2>Computer</h2>
+                            <p>0</p>
+                          </div>
+                        </div>
+                    
+                        <!-- tampilan awal ketika belum memulai game -->
+                        <div class="intro">
+                          <h1>Gunting Batu Kertas</h1>
+                          <button>Mulai Game</button>
+                        </div>
+                    
+                        <!-- pilihan yang bisa dipilih player -->
+                        <div class="match fadeOut">
+                          <h2 class="winner">Pilih Pilihan mu</h2>
+                          <div class="hands">
+                            <img class="player-hands" src="assets/rock.png" alt="player">
+                            <img class="computer-hands" src="assets/rock.png" alt="computer">
+                          </div>
+                          <div class="options">
+                            <button class="rock">rock</button>
+                            <button class="paper">paper</button>
+                            <button claa="scissors">scissors</button>
+                          </div>
+                        </div>
+                    
+                      </section>
+                    
+                      <script src="main.js"></script>
+                </div>
+            </div>
+        
+    </div>
+</body>
+</html>
